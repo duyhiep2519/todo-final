@@ -1,0 +1,70 @@
+.form {
+  width: 500px;
+  height: 510px;
+  margin-left: 20px;
+}
+
+select {
+  width: 480px;
+  font-family: Arial;
+}
+select,
+.btn:hover {
+  cursor: pointer;
+}
+input {
+  width: 440px;
+}
+input.picker {
+  width: 400px;
+  margin-right: 80px;
+}
+
+select.category,
+input.input-text,
+input.picker {
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  height: 40px;
+  margin-top: 25px;
+  outline: none;
+  border: none;
+  background-color: #ecf0f1;
+  box-shadow: 3px 3px 3px 3px #7f8c8d;
+}
+span {
+  font-size: 0.8rem;
+  color: #a5afb7;
+}
+.btn {
+  background-color: white;
+  border-radius: 2px;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  padding: 10px 14px;
+  transition: all 0.2s;
+  margin-top: 20px;
+  width: 100px;
+  margin-right: 40px;
+  text-align: center;
+}
+.btn-add {
+  color: #3498db;
+  border: 1px solid #3498db;
+}
+.btn-clear {
+  color: #e74c3c;
+  border: 1px solid #e74c3c;
+}
+span.required {
+  margin: 0px 300px 0px 10px;
+}
+div.required {
+  margin-top: 10px;
+  margin-right: 100px;
+}
+input.input-text {
+  margin-right: 40px;
+}

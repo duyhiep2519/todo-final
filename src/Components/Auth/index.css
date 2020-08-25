@@ -1,0 +1,18 @@
+header {
+  color: #212121;
+  font-size: 40px;
+  font-family: Arial;
+}
+.login-page {
+  background-image: url("../../Images/login.jpg");
+  background-size: cover;
+  background-color: #cccccc;
+  height: 590px;
+}
+.wrapper {
+  width: 280px;
+  height: 280px;
+  background-color: #3498db;
+  text-align: center;
+  margin: 100px auto;
+}

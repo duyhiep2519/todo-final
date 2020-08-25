@@ -1,0 +1,82 @@
+div.list {
+  position: relative;
+  width: 600px;
+  height: 510px;
+  margin: 0px auto;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: #e0e0e0;
+  border-style: solid;
+  border-radius: 20px;
+  border-color: #e0e0e0;
+}
+nav ul {
+  height: 400px;
+  width: 580px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+li {
+  margin-right: 30px;
+}
+
+ul li {
+  display: flex;
+  padding: 10px;
+  margin-top: 20px;
+  transition: 0.5s;
+}
+ul li:hover {
+  cursor: pointer;
+  transform: scale(1.04);
+  background-color: #3498db;
+}
+.edit-input {
+  width: 200px;
+}
+.edit-select,
+.date-input {
+  width: 100px;
+}
+div.deadline + div {
+  margin-left: 20px;
+}
+.tooltip + .tooltip {
+  margin-left: 20px;
+}
+
+.title {
+  text-align: left;
+  flex: 1 1 auto;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 15px;
+}
+.fa-edit,
+.fa-check {
+  color: rgb(67, 173, 67);
+}
+.fa-trash,
+.fa-paperclip {
+  color: rgb(187, 72, 72);
+}
+.search {
+  height: 40px;
+  width: 100px;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-right: 480px;
+  outline: none;
+  border: none;
+  background-color: #ecf0f1;
+  box-shadow: 3px 3px 3px 3px #7f8c8d;
+}
+.search:focus {
+  width: 480px;
+  transition: all 0.5s;
+}

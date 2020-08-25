@@ -1,0 +1,21 @@
+button.view {
+  display: inline-block;
+  background-color: white;
+  border-radius: 2px;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  line-height: 16.8px;
+  padding: 10px 14px;
+  text-decoration-line: none;
+  transition: all 0.2s;
+  width: 100px;
+  margin: 0px auto;
+}
+div.content {
+  display: flex;
+  align-items: center;
+}
+div.root {
+  background-color: #f5f6fa;
+}

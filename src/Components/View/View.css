@@ -1,0 +1,45 @@
+div.view {
+  position: relative;
+  margin: 0px auto;
+  width: 600px;
+  height: 510px;
+
+  box-sizing: border-box;
+  background-color: #e0e0e0;
+  border-style: solid;
+  border-radius: 20px;
+  border-color: #e0e0e0;
+}
+div.table {
+  height: 470px;
+  width: 600px;
+  border-collapse: collapse;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+table {
+  width: 580px;
+}
+td,
+th {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+tr,
+button:hover {
+  cursor: pointer;
+}
+button.btn-view {
+  background-color: white;
+  border-radius: 2px;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  padding: 10px 14px;
+  transition: all 0.2s;
+  width: 100px;
+  color: #3498db;
+  border: 1px solid #3498db;
+  margin-left: 5px;
+}

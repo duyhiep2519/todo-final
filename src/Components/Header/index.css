@@ -1,0 +1,31 @@
+div {
+  text-align: center;
+}
+.logo {
+  font-size: 40px;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  color: #2d3436;
+}
+.fab {
+  font-size: 40px;
+  color: #03a9f4;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .fa-react {
+    animation: fa-react-spin infinite 10s linear;
+  }
+}
+@keyframes fa-react-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+a {
+  color: #424242;
+  font-size: 20px;
+  font-family: Arial;
+}
